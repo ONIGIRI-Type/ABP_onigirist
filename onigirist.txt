@@ -32,3 +32,4 @@ ai.yimg.jp
 yjaxc.yahoo.co.jp
 download.jword.jp
 www.majo.co.jp
+a.adimg.net
