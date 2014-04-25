@@ -30,3 +30,4 @@ www.ustream.tv##*.iframeWrapper
 ybx.yahoo.co.jp
 ai.yimg.jp
 yjaxc.yahoo.co.jp
+download.jword.jp
