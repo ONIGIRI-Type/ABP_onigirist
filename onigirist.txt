@@ -6,8 +6,8 @@
 *.impact-ad.jp
 *.microad.jp$script
 *ap.valuecommerce.com
-http*://ad.*
-http*://ads.*
+http*://^ad.*^
+http*://^ads.*^
 chie8oo.com
 connect.newzia.jp
 dlv.itmedia.jp
@@ -49,4 +49,3 @@ s*.addthis.com/static/*
 *affiliate.rakuten.co.jp
 ##a[href*="tracking.become.co.jp"]
 adfarm.mediaplex.com
-ads*.msads.net
