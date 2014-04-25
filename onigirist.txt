@@ -8,6 +8,9 @@
 *ap.valuecommerce.com
 http*://^ad.*^
 http*://^ads.*^
+!
+mail.live.com##div#RightRailContainer
+!
 chie8oo.com
 connect.newzia.jp
 dlv.itmedia.jp
