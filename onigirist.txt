@@ -1,10 +1,11 @@
 [Adblock Plus 2.0]
-! Title:おにぎりすと
+
+! Title: おにぎりすと
 ! Version: 1.0
-!  トラッキング
+
 *.2mdn.net
 *.adnxs.com
-*.impact-ad.jp/*
+*.impact-ad.jp
 *.microad.jp$script
 *ap.valuecommerce.com
 ^ad.*
@@ -13,7 +14,7 @@ chie8oo.com
 connect.newzia.jp
 dlv.itmedia.jp
 edge.quantserve.com
-http*://*.doubleclick.net/*
+*.doubleclick.net
 http*://mail.google.com/mail/*view=ad
 http*://pagead*.googlesyndication.com/pagead/*
 http://www.nicovideo.jp/*##div#pc_uni_top_300x60_text_middle_east
