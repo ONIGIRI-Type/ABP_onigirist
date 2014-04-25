@@ -1,3 +1,6 @@
+[Adblock Plus 2.0]
+! Title:おにぎりすと
+! Version: 1.0
 !  トラッキング
 *.2mdn.net
 *.adnxs.com
