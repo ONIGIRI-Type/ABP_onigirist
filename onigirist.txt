@@ -35,10 +35,10 @@ www.majo.co.jp
 a.adimg.net
 ribbon.to/ribbon_link.php
 bc.geocities.yahoo.co.jp
-##*[href*="www.accesstrade.net/at/"]
+##a[href*="www.accesstrade.net/at/"]
 ##*[src*="www.accesstrade.net/at/"]
 rcm-*.amazon.*
 ##*[href*="www.amazon.*/*tag=*-*"]
 rot*.a8.net
-##*[href*="px.a8.net"]
+##a[href*="px.a8.net"]
 
