@@ -1,1 +1,28 @@
-! おにぎりすと
+!  トラッキング
+*.2mdn.net
+*.adnxs.com
+*.impact-ad.jp/*
+*.microad.jp$script
+*ap.valuecommerce.com
+^ad.*
+^ads.*
+chie8oo.com
+connect.newzia.jp
+dlv.itmedia.jp
+edge.quantserve.com
+http*://*.doubleclick.net/*
+http*://mail.google.com/mail/*view=ad
+http*://pagead*.googlesyndication.com/pagead/*
+http://www.nicovideo.jp/*##div#pc_uni_top_300x60_text_middle_east
+http://www.tv-bank.com/sample/iframe/*
+http://www.ustream.tv/channel-extension/*
+mail.google.com##div/div/img[src*="cleardot.gif"]
+nicovideo.jp##*#advertisement_box
+nicovideo.jp##*[href*="rd.nicovideo.jp/cc/cp/"]
+redir.adap.tv
+www.nicovideo.jp##div/div#web_pc_premium
+www.nicovideo.jp##div[style*="height:240px"]
+www.ustream.tv##*.banner-wrapper
+www.ustream.tv##*.extensions
+www.ustream.tv##*.iframeWrapper
+ybx.yahoo.co.jp
