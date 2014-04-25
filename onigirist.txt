@@ -6,8 +6,8 @@
 *.impact-ad.jp
 *.microad.jp$script
 *ap.valuecommerce.com
-^ad.*
-^ads.*
+http*://ad.*
+http*://ads.*
 chie8oo.com
 connect.newzia.jp
 dlv.itmedia.jp
