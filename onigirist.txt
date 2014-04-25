@@ -35,3 +35,5 @@ www.majo.co.jp
 a.adimg.net
 ribbon.to/ribbon_link.php
 bc.geocities.yahoo.co.jp
+##*[href="www.accesstrade.net/at/"]
+##*[src="www.accesstrade.net/at/"]
