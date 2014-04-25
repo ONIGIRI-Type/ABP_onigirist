@@ -42,4 +42,5 @@ rcm-*.amazon.*
 ##*[href*="www.amazon.*/*tag=*-*"]
 rot*.a8.net
 ##a[href*="px.a8.net"]
+##a[href*="m.hapitas.jp"]
 
