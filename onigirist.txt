@@ -49,3 +49,4 @@ s*.addthis.com/static/*
 *affiliate.rakuten.co.jp
 ##a[href*="tracking.become.co.jp"]
 adfarm.mediaplex.com
+ads*.msads.net
