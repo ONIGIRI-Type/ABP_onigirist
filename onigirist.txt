@@ -38,3 +38,4 @@ bc.geocities.yahoo.co.jp
 ##*[href*="www.accesstrade.net/at/"]
 ##*[src*="www.accesstrade.net/at/"]
 rcm-*.amazon.*
+www.amazon.*/*tag=*-*
