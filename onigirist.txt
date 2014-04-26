@@ -31,7 +31,7 @@ www.ustream.tv##*.banner-wrapper
 www.ustream.tv##*.extensions
 www.ustream.tv##*.iframeWrapper
 ybx.yahoo.co.jp
-*i.yimg.jp
+!
 yjaxc.yahoo.co.jp
 download.jword.jp
 www.majo.co.jp
