@@ -47,7 +47,7 @@ bc.geocities.yahoo.co.jp
 *ad.valuecommerce.com
 ##a[href*="ck.valuecommerce.com"]
 http*://rcm-*.amazon*
-www.amazon.*/*tag=*-*
+http*://www.amazon.*/*&tag=*-*
 ##*[class*="amazon"]
 rot*.a8.net
 ##a[href*="px.a8.net"]
