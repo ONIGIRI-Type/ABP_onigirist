@@ -66,3 +66,4 @@ http*://amzlsh.com/js/show_amzl.js
 *.kau.li
 ##a[href*="ard.yahoo.co.jp"]
 ##iframe[src*="kau.li"]
+##a[href*="www.animate.tv/ad_jump.php"]
