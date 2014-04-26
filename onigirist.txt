@@ -62,3 +62,5 @@ fd.rad.msn.com/DisplayFD/ads.ashx
 widget.zenback.jp
 http*://amzlsh.com/js/show_amzl.js
 *.kau.li
+##a[href*="ard.yahoo.co.jp"]
+##iframe[src*="kau.li"]
