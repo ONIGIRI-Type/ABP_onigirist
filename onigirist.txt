@@ -8,35 +8,44 @@
 http*://^ad.*^
 http*://^ads.*^
 !--
+! メジャーな広告配信
+*.doubleclick.net
+pagead*.googlesyndication.com/pagead/*
+*.impact-ad.jp
+*.i-mobile.co.jp
+*.microad.jp
+##a[href*="www.accesstrade.net/at/"]
+##*[src*="www.accesstrade.net/at/"]
+*a*.valuecommerce.com
+##a[href*="ck.valuecommerce.com"]
+http*://rcm-*.amazon*
+http*://www.amazon.*/*&tag=*-*
+##*[class*="amazon"]
+!--
 ! Webメール系
 http*://mail.google.com/mail/*view=ad
 http*://*.mg*.mail.yahoo.co.jp/yjaxc/oi?*&pv_ts=*
 fd.rad.msn.com/DisplayFD/ads.ashx
-mail.live.com##div#RightRailContainer
+!mail.google.com##div/div/img[src*="cleardot.gif"]
+! --
+! 動画系サービス
+nicovideo.jp##*#advertisement_box
+nicovideo.jp##*[href*="rd.nicovideo.jp/cc/cp/"]
+www.nicovideo.jp##div/div#web_pc_premium
+www.nicovideo.jp##div[style*="height:240px"]
+redir.adap.tv
+www.ustream.tv##*.banner-wrapper
+www.ustream.tv##*.extensions
+www.ustream.tv##*.iframeWrapper
+www.ustream.tv/channel-extension/*
+http://www.tv-bank.com/sample/iframe/*
 ! --
 *.2mdn.net
 *.adnxs.com
-*.impact-ad.jp
-*.microad.jp$script
-*ap.valuecommerce.com
 chie8oo.com
 connect.newzia.jp
 dlv.itmedia.jp
 edge.quantserve.com
-*.doubleclick.net
-http*://pagead*.googlesyndication.com/pagead/*
-http://www.nicovideo.jp/*##div#pc_uni_top_300x60_text_middle_east
-http://www.tv-bank.com/sample/iframe/*
-http://www.ustream.tv/channel-extension/*
-mail.google.com##div/div/img[src*="cleardot.gif"]
-nicovideo.jp##*#advertisement_box
-nicovideo.jp##*[href*="rd.nicovideo.jp/cc/cp/"]
-redir.adap.tv
-www.nicovideo.jp##div/div#web_pc_premium
-www.nicovideo.jp##div[style*="height:240px"]
-www.ustream.tv##*.banner-wrapper
-www.ustream.tv##*.extensions
-www.ustream.tv##*.iframeWrapper
 ybx.yahoo.co.jp
 ai.yimg.jp/bdv/yahoo/javascript/yfa*.js
 ##a[href*="ard.yahoo.co.jp"]
@@ -49,13 +58,6 @@ rr.maid.to
 a.adimg.net
 ribbon.to/ribbon_link.php
 bc.geocities.yahoo.co.jp
-##a[href*="www.accesstrade.net/at/"]
-##*[src*="www.accesstrade.net/at/"]
-*ad.valuecommerce.com
-##a[href*="ck.valuecommerce.com"]
-http*://rcm-*.amazon*
-http*://www.amazon.*/*&tag=*-*
-##*[class*="amazon"]
 rot*.a8.net
 ##a[href*="px.a8.net"]
 ##a[href*="m.hapitas.jp"]
@@ -64,7 +66,6 @@ s*.addthis.com/static/*
 *affiliate.rakuten.co.jp
 ##a[href*="tracking.become.co.jp"]
 adfarm.mediaplex.com
-*.i-mobile.co.jp
 widget.zenback.jp
 http*://amzlsh.com/js/show_amzl.js
 *.kau.li
@@ -72,4 +73,3 @@ http*://amzlsh.com/js/show_amzl.js
 ##iframe[src*="kau.li"]
 ##a[href*="www.animate.tv/ad_jump.php"]
 ##a[href*="www.animate-onlineshop.jp/affiliate/"]
-
