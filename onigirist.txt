@@ -11,7 +11,7 @@ affiliate
 tracking
 !--
 !例外
-@@http://candycrush.king.com/GuiTracking/GuiLeft
+@@candycrush.king.com/GuiTracking
 !--
 ! メジャーな広告配信
 *.doubleclick.net
