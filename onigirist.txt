@@ -1,5 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: おにぎりすと
+! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
+! Expires: 7 days
 ! Version: 1.0
 *.2mdn.net
 *.adnxs.com
