@@ -45,7 +45,7 @@ bc.geocities.yahoo.co.jp
 ##a[href*="www.accesstrade.net/at/"]
 ##*[src*="www.accesstrade.net/at/"]
 *ad.valuecommerce.com
-rcm-*.amazon.*
+http*://rcm-*.amazon*
 www.amazon.*/*tag=*-*
 ##*[class*="amazon"]
 rot*.a8.net
@@ -58,3 +58,5 @@ s*.addthis.com/static/*
 adfarm.mediaplex.com
 *.i-mobile.co.jp
 fd.rad.msn.com/DisplayFD/ads.ashx
+widget.zenback.jp
+
