@@ -7,6 +7,8 @@
 ! ヒューリスティクス
 http*://^ad.*^
 http*://^ads.*^
+affiliate
+tracking
 !--
 ! メジャーな広告配信
 *.doubleclick.net
@@ -65,7 +67,6 @@ ribbon.to/ribbon_link.php
 ##a[href*="m.hapitas.jp"]
 *.serving-sys.com
 s*.addthis.com/static/*
-*affiliate.rakuten.co.jp
 ##a[href*="tracking.become.co.jp"]
 adfarm.mediaplex.com
 widget.zenback.jp
