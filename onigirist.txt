@@ -83,4 +83,3 @@ http*://amzlsh.com/js/show_amzl.js
 facebook.com##a[href*="/a.php"]
 facebook.com##iflame[src*="/ai.php"]
 facebook.com##div#u_0_0
-ads.pixiv.org
