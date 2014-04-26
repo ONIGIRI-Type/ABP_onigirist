@@ -11,7 +11,7 @@ affiliate
 tracking
 !--
 !例外
-@@http*://*.channel.facebook.com/pull*
+@@http://candycrush.king.com/GuiTracking/GuiLeft
 !--
 ! メジャーな広告配信
 *.doubleclick.net
