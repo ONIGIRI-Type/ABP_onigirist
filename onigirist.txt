@@ -10,6 +10,9 @@
 affiliate
 tracking
 !--
+!例外
+@@http*://*.channel.facebook.com/pull*
+!--
 ! メジャーな広告配信
 *.doubleclick.net
 pagead*.googlesyndication.com/pagead/*
