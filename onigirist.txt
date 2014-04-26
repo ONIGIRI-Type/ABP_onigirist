@@ -3,22 +3,27 @@
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 7 days
 ! Version: 1.0
+!
+! ヒューリスティクス
+http*://^ad.*^
+http*://^ads.*^
+!--
+! Webメール系
+http*://mail.google.com/mail/*view=ad
+http*://*.mg*.mail.yahoo.co.jp/yjaxc/oi?*&pv_ts=*
+fd.rad.msn.com/DisplayFD/ads.ashx
+mail.live.com##div#RightRailContainer
+! --
 *.2mdn.net
 *.adnxs.com
 *.impact-ad.jp
 *.microad.jp$script
 *ap.valuecommerce.com
-http*://^ad.*^
-http*://^ads.*^
-!
-mail.live.com##div#RightRailContainer
-!
 chie8oo.com
 connect.newzia.jp
 dlv.itmedia.jp
 edge.quantserve.com
 *.doubleclick.net
-http*://mail.google.com/mail/*view=ad
 http*://pagead*.googlesyndication.com/pagead/*
 http://www.nicovideo.jp/*##div#pc_uni_top_300x60_text_middle_east
 http://www.tv-bank.com/sample/iframe/*
@@ -60,7 +65,6 @@ s*.addthis.com/static/*
 ##a[href*="tracking.become.co.jp"]
 adfarm.mediaplex.com
 *.i-mobile.co.jp
-fd.rad.msn.com/DisplayFD/ads.ashx
 widget.zenback.jp
 http*://amzlsh.com/js/show_amzl.js
 *.kau.li
@@ -68,3 +72,4 @@ http*://amzlsh.com/js/show_amzl.js
 ##iframe[src*="kau.li"]
 ##a[href*="www.animate.tv/ad_jump.php"]
 ##a[href*="www.animate-onlineshop.jp/affiliate/"]
+
