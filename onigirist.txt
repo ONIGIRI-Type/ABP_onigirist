@@ -5,8 +5,8 @@
 ! Version: 1.0
 !
 ! ヒューリスティクス
-http*://^ad.*^
-http*://^ads.*^
+|http*://ad.*
+|http*://ads.*
 affiliate
 tracking
 !--
