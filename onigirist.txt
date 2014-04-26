@@ -45,6 +45,7 @@ bc.geocities.yahoo.co.jp
 ##a[href*="www.accesstrade.net/at/"]
 ##*[src*="www.accesstrade.net/at/"]
 *ad.valuecommerce.com
+##a[href*="ck.valuecommerce.com"]
 http*://rcm-*.amazon*
 www.amazon.*/*tag=*-*
 ##*[class*="amazon"]
