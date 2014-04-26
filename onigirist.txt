@@ -9,6 +9,7 @@
 |http*://ads*
 affiliate
 tracking
+##*[class*="ads"]
 !--
 !例外
 @@candycrush.king.com/GuiTracking
