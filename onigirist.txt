@@ -59,4 +59,4 @@ adfarm.mediaplex.com
 *.i-mobile.co.jp
 fd.rad.msn.com/DisplayFD/ads.ashx
 widget.zenback.jp
-
+http*://amzlsh.com/js/show_amzl.js
