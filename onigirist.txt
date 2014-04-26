@@ -80,3 +80,4 @@ http*://amzlsh.com/js/show_amzl.js
 ##a[href*="www.animate.tv/ad_jump.php"]
 ##a[href*="www.animate-onlineshop.jp/affiliate/"]
 www.facebook.com##a[href*="/a.php"]
+www.facebook.com/ai.php
