@@ -40,7 +40,7 @@ fd.rad.msn.com/DisplayFD/ads.ashx
 ! 動画系サービス
 nicovideo.jp##*#advertisement_box
 nicovideo.jp##*[href*="rd.nicovideo.jp/cc/cp/"]
-www.nicovideo.jp##div/div#web_pc_premium
+www.nicovideo.jp##div div#web_pc_premium
 www.nicovideo.jp##div[style*="height:240px"]
 redir.adap.tv
 www.ustream.tv##*.banner-wrapper
