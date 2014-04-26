@@ -6,7 +6,7 @@ Adblock Plus用 フィルタリスト『おにぎりすと』
 日本向けのサイトが主です。
 そのほかトラッキングも潰してるかもしれません。
 
->> Install <<
+++ Install ++
 
 Adblock Plusオプション
 ↓
@@ -23,6 +23,6 @@ https://raw.githubusercontent.com/ONIGIRI-Type/ABP_onigirist/master/onigirist.tx
 ↓
 幸せになる
 
->> Address <<
+++ Address ++
 
 Twitter -> https://twitter.com/STS2657
