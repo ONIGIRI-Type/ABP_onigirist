@@ -79,4 +79,4 @@ http*://amzlsh.com/js/show_amzl.js
 ##iframe[src*="kau.li"]
 ##a[href*="www.animate.tv/ad_jump.php"]
 ##a[href*="www.animate-onlineshop.jp/affiliate/"]
-http*://www.facebook.com/*##a[href=*"a.php"]
+http*://www.facebook.com/*##a[href*="a.php"]
