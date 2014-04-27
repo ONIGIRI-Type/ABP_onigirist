@@ -5,7 +5,7 @@
 ! Version: 1.0
 !
 ! ヒューリスティクス
-|http*://ad.*
+||ad.*
 |http*://ads*
 affiliate
 tracking
@@ -13,6 +13,7 @@ tracking
 ad.js$script
 !--
 !例外
+@@candycrush.king.com/GuiTracking
 @@candycrush.king.com/GuiTracking
 !--
 ! メジャーな広告配信
@@ -32,8 +33,8 @@ rot*.a8.net
 ##a[href*="px.a8.net"]
 !--
 ! Webメール系
-http*://mail.google.com/mail/*&view=ad
-!mail.google.com##td.y3
+https://mail.google.com/mail/*&view=ad
+
 http*://*.mg*.mail.yahoo.co.jp/yjaxc/oi?*&pv_ts=*
 http*://*.mg*.mail.yahoo.co.jp/improxy/*&cm=*
 fd.rad.msn.com/DisplayFD/ads.ashx
