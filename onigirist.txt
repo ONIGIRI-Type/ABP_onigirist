@@ -31,7 +31,7 @@ rot*.a8.net
 ##a[href*="px.a8.net"]
 !--
 ! Webメール系
-http*://mail.google.com/mail/*view=ad
+http*://mail.google.com/mail/*&view=ad
 !mail.google.com##td.y3
 http*://*.mg*.mail.yahoo.co.jp/yjaxc/oi?*&pv_ts=*
 http*://*.mg*.mail.yahoo.co.jp/improxy/*&cm=*
