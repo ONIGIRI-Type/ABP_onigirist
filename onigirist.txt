@@ -9,11 +9,9 @@
 |http*://ads*
 affiliate
 tracking
-##*[class*="ads"]
 ad.js$script
 !--
 !例外
-@@candycrush.king.com/GuiTracking
 @@candycrush.king.com/GuiTracking
 !--
 ! メジャーな広告配信
