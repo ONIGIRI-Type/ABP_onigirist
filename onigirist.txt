@@ -62,7 +62,9 @@ ybx.yahoo.co.jp
 yads.yahoo.co.jp
 yjaxc.yahoo.co.jp
 bc.geocities.yahoo.co.jp
+ane.yahoo.co.jp
 ##a[href*="ard.yahoo.co.jp"]
+##a[href*="ane.yahoo.co.jp"]
 !--
 download.jword.jp
 www.majo.co.jp
