@@ -7,6 +7,7 @@
 ! ヒューリスティクス
 ||ad.*
 |http*://ads*
+||cm.*
 affiliate
 listing
 tracking
