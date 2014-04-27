@@ -8,6 +8,7 @@
 ||ad.*
 |http*://ads*
 affiliate
+listing
 tracking
 ad.js$script
 !--
