@@ -32,7 +32,7 @@ rot*.a8.net
 !--
 ! Webメール系
 &view=ad&
-http*://*.mg*.mail.yahoo.co.jp/yjaxc/oi?*&pv_ts=*
+&pv_ts=*&
 http*://*.mg*.mail.yahoo.co.jp/improxy/*&cm=*
 fd.rad.msn.com/DisplayFD/ads.ashx
 ! --
