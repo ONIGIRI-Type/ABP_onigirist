@@ -12,6 +12,7 @@ listing
 tracking
 analyze
 ad.js$script
+ads.js$script
 !--
 !例外
 @@candycrush.king.com/GuiTracking
