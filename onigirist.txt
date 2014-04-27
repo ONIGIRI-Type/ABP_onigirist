@@ -88,3 +88,4 @@ facebook.com##div#u_0_0
 ads.pixiv.org
 ##a[href*="top55.net"]
 imgj.xrea.com
+##a[href*="hkakaku.com/bb/?cid="]
