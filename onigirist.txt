@@ -10,6 +10,7 @@
 affiliate
 listing
 tracking
+analyze
 ad.js$script
 !--
 !例外
