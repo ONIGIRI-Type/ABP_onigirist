@@ -17,7 +17,7 @@ ads.js$script
 !--
 !例外
 @@candycrush.king.com/GuiTracking
-@@load.js
+@@load.js|
 !--
 ! メジャーな広告配信
 a.adimg.net
