@@ -12,12 +12,13 @@ affiliate
 listing
 tracking
 analyze
+analytics
 ad.js$script
 ads.js$script
 !--
 !例外
 @@candycrush.king.com/GuiTracking
-@@load
+@@*load.js|
 !--
 ! メジャーな広告配信
 a.adimg.net
