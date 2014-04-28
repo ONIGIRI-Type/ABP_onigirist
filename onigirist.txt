@@ -19,6 +19,7 @@ ads.js$script
 @@candycrush.king.com/GuiTracking
 !--
 ! メジャーな広告配信
+a.adimg.net
 *.doubleclick.net
 pagead*.googlesyndication.com/pagead/*
 *.impact-ad.jp
@@ -28,9 +29,6 @@ pagead*.googlesyndication.com/pagead/*
 ##*[src*="www.accesstrade.net/at/"]
 *a*.valuecommerce.com
 ##a[href*="ck.valuecommerce.com"]
-http*://rcm-*.amazon*
-http*://www.amazon.*/*&tag=*-*
-##*[class*="amazon"]
 rot*.a8.net
 ##a[href*="px.a8.net"]
 !--
@@ -39,7 +37,7 @@ rot*.a8.net
 &pv_ts=*&
 http*://*.mg*.mail.yahoo.co.jp/improxy/*&cm=*
 fd.rad.msn.com/DisplayFD/ads.ashx
-! --
+!--
 ! 動画系サービス
 nicovideo.jp##*#advertisement_box
 nicovideo.jp##*[href*="rd.nicovideo.jp/cc/cp/"]
@@ -51,13 +49,13 @@ www.ustream.tv##*.extensions
 www.ustream.tv##*.iframeWrapper
 www.ustream.tv/channel-extension/*
 http://www.tv-bank.com/sample/iframe/*
-! --
-*.2mdn.net
-*.adnxs.com
-chie8oo.com
-connect.newzia.jp
-dlv.itmedia.jp
-edge.quantserve.com
+!--
+! AMAZON
+http*://rcm-*.amazon*
+http*://www.amazon.*/*&tag=*-*
+##*[class*="amazon"]
+ws.amazon.co.jp
+!--
 ! YAHOO軍隊
 */bdv/yahoo/javascript/csc/*
 */bdv/yahoo/javascript/yfa*.js
@@ -69,10 +67,15 @@ ane.yahoo.co.jp
 ##a[href*="ard.yahoo.co.jp"]
 ##a[href*="ane.yahoo.co.jp"]
 !--
+*.2mdn.net
+*.adnxs.com
+chie8oo.com
+connect.newzia.jp
+dlv.itmedia.jp
+edge.quantserve.com
 download.jword.jp
 www.majo.co.jp
 rr.maid.to
-a.adimg.net
 ribbon.to/ribbon_link.php
 ##a[href*="m.hapitas.jp"]
 *.serving-sys.com
