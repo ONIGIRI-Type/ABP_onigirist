@@ -60,10 +60,11 @@ http*://www.amazon.*/*&tag=*-*
 ws.amazon.co.jp
 !--
 ! YAHOO軍隊
-*/bdv/yahoo/javascript/csc/*
-*/bdv/yahoo/javascript/yfa*.js
-ybx.yahoo.co.jp
-yads.yahoo.co.jp
+http*://yjaxc.yahoo.co.jp/yjaxc-image-ad.html
+!*/bdv/yahoo/javascript/csc/*
+!*/bdv/yahoo/javascript/yfa*.js
+!ybx.yahoo.co.jp
+!yads.yahoo.co.jp
 !yjaxc.yahoo.co.jp
 bc.geocities.yahoo.co.jp
 ane.yahoo.co.jp
