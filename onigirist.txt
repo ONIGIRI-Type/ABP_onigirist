@@ -5,9 +5,9 @@
 ! Version: 1.0
 !
 ! ヒューリスティクス
-|http*://ad.*
 |http*://ads*
-||*.ad*
+||ad.*
+||*.ad.*
 ||cm.*
 affiliate
 listing
@@ -19,7 +19,7 @@ ads.js$script
 !--
 !例外
 @@candycrush.king.com/GuiTracking
-@@*load.js|
+@@*load.js$script
 !--
 ! メジャーな広告配信
 a.adimg.net
