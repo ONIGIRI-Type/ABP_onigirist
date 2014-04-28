@@ -61,13 +61,14 @@ ws.amazon.co.jp
 !--
 ! YAHOO軍隊
 http*://yjaxc.yahoo.co.jp/yjaxc-image-ad.html
+http*://yjaxc.yahoo.co.jp/oi
 !*/bdv/yahoo/javascript/csc/*
 !*/bdv/yahoo/javascript/yfa*.js
 !ybx.yahoo.co.jp
 !yads.yahoo.co.jp
 !yjaxc.yahoo.co.jp
 bc.geocities.yahoo.co.jp
-ane.yahoo.co.jp
+!ane.yahoo.co.jp
 ##a[href*="ard.yahoo.co.jp"]
 ##a[href*="ane.yahoo.co.jp"]
 !--
