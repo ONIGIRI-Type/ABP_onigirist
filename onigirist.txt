@@ -10,7 +10,6 @@
 ||*.ad.*
 ||cm.*
 affiliate
-listing
 tracking
 analyze
 analytics
@@ -20,7 +19,7 @@ ads.js$script
 !例外
 @@candycrush.king.com/GuiTracking
 @@*load.js$script
-
+@@yads$domain=yahoo.co.jp
 !--
 ! メジャーな広告配信
 a.adimg.net
@@ -62,7 +61,10 @@ ws.amazon.co.jp
 !--
 ! YAHOO軍隊
 http*://yjaxc.yahoo.co.jp/yjaxc-image-ad.html
-http*://yjaxc.yahoo.co.jp/oi$xmlhttprequest
+http*://yjaxc.yahoo.co.jp/oi
+ai.yimg.jp$object
+im.c.yimg.jp$image
+
 !*/bdv/yahoo/javascript/csc/*
 !*/bdv/yahoo/javascript/yfa*.js
 !ybx.yahoo.co.jp
