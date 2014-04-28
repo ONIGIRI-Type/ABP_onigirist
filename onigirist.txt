@@ -60,7 +60,6 @@ http*://www.amazon.*/*&tag=*-*
 ws.amazon.co.jp
 !--
 ! YAHOO軍隊
-*/bdv/yahoo/javascript/csc/*
 */bdv/yahoo/javascript/yfa*.js
 ybx.yahoo.co.jp
 yads.yahoo.co.jp
