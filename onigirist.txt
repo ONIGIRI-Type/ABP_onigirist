@@ -5,7 +5,7 @@
 ! Version: 1.0
 !
 ! ヒューリスティクス
-||ad.*
+|http*://ad.*
 |http*://ads*
 ||cm.*
 affiliate
