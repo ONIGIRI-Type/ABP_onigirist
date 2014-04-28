@@ -20,6 +20,7 @@ ads.js$script
 !例外
 @@candycrush.king.com/GuiTracking
 @@*load.js$script
+
 !--
 ! メジャーな広告配信
 a.adimg.net
@@ -61,7 +62,7 @@ ws.amazon.co.jp
 !--
 ! YAHOO軍隊
 http*://yjaxc.yahoo.co.jp/yjaxc-image-ad.html
-http*://yjaxc.yahoo.co.jp/oi
+http*://yjaxc.yahoo.co.jp/oi$xmlhttprequest
 !*/bdv/yahoo/javascript/csc/*
 !*/bdv/yahoo/javascript/yfa*.js
 !ybx.yahoo.co.jp
