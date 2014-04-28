@@ -102,3 +102,6 @@ imgj.xrea.com
 gigazine.asia/a/
 ##a[href*="linksynergy"]
 a*.goo.ne.jp
+http://www.shufoo.net/contents/pc_premium_panel/
+tacoda.net
+
