@@ -92,3 +92,4 @@ ads.pixiv.org
 ##a[href*="top55.net"]
 imgj.xrea.com
 ##a[href*="hkakaku.com/bb/?cid="]
+##a[href*="gigazine.asia/a/"]
