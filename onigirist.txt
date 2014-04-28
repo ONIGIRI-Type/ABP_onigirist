@@ -52,6 +52,7 @@ www.ustream.tv##*.extensions
 www.ustream.tv##*.iframeWrapper
 www.ustream.tv/channel-extension/*
 http://www.tv-bank.com/sample/iframe/*
+im.yahooapis.jp
 !--
 ! AMAZON
 http*://rcm-*.amazon*
