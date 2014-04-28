@@ -93,3 +93,4 @@ ads.pixiv.org
 imgj.xrea.com
 ##a[href*="hkakaku.com/bb/?cid="]
 ##a[href*="gigazine.asia/a/"]
+gigazine.asia/a/
