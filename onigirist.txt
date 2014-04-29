@@ -65,7 +65,7 @@ http*://yjaxc.yahoo.co.jp/yjaxc-image-ad.html
 http*://yjaxc.yahoo.co.jp/oi
 ai.yimg.jp$object
 im.c.yimg.jp$image
-
+ai.yimg.jp/bdv/ad$image
 !*/bdv/yahoo/javascript/csc/*
 !*/bdv/yahoo/javascript/yfa*.js
 !ybx.yahoo.co.jp
