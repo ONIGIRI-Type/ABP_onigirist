@@ -110,3 +110,5 @@ http://www.shufoo.net/contents/pc_premium_panel/
 tacoda.net
 ds.advg.jp
 cas.criteo.com
+fc2.com##div#fc2_bottom_bnr
+
