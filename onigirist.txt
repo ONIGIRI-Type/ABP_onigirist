@@ -19,7 +19,7 @@ ads.js$script
 !例外
 @@candycrush.king.com/GuiTracking
 @@*load.js$script
-@@yads$domain=*.yahoo.co.jp
+!@@yads$domain=*.yahoo.co.jp
 !--
 ! メジャーな広告配信
 a.adimg.net
@@ -73,8 +73,8 @@ im.c.yimg.jp$image
 !yjaxc.yahoo.co.jp
 bc.geocities.yahoo.co.jp
 !ane.yahoo.co.jp
-##a[href*="ard.yahoo.co.jp"]
-##a[href*="ane.yahoo.co.jp"]
+!##a[href*="ard.yahoo.co.jp"]
+!##a[href*="ane.yahoo.co.jp"]
 !--
 *.2mdn.net
 *.adnxs.com
