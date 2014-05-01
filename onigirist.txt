@@ -111,4 +111,6 @@ tacoda.net
 ds.advg.jp
 cas.criteo.com
 fc2.com##div#fc2_bottom_bnr
-
+*.ad-v.jp
+j.amoad.com
+eimg.jp
