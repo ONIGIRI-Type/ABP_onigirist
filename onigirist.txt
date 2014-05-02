@@ -114,3 +114,4 @@ fc2.com##div#fc2_bottom_bnr
 *.ad-v.jp
 j.amoad.com
 eimg.jp
+amazon-adsystem.com
