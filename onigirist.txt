@@ -115,3 +115,4 @@ fc2.com##div#fc2_bottom_bnr
 j.amoad.com
 eimg.jp
 amazon-adsystem.com
+sh.adingo.jp
