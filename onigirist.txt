@@ -36,7 +36,7 @@ rot*.a8.net
 ##a[href*="px.a8.net"]
 !--
 ! Webメール系
-&view=ad&
+mail.google.com^*&view=ad&*
 &pv_ts=*&
 http*://*.mg*.mail.yahoo.co.jp/improxy/*&cm=*
 fd.rad.msn.com/DisplayFD/ads.ashx
@@ -117,3 +117,7 @@ eimg.jp
 amazon-adsystem.com
 sh.adingo.jp
 js.4clvr.jp
+cas.criteo.com
+image.tok2.com/kget/*
+partner.become.co.jp
+tok2.com##div#meerkat-wrap
