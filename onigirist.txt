@@ -2,7 +2,7 @@
 ! Title: おにぎりすと
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 7 days
-! Version: 1.0
+! Version: 1.0.1
 !
 ! ヒューリスティクス
 |http*://ads*
@@ -73,6 +73,7 @@ bc.geocities.yahoo.co.jp
 !ane.yahoo.co.jp
 !##a[href*="ard.yahoo.co.jp"]
 !##a[href*="ane.yahoo.co.jp"]
+im.ov.yahoo.co.jp/js_flat/v2/*
 !--
 *.2mdn.net
 *.adnxs.com
@@ -121,3 +122,8 @@ cas.criteo.com
 image.tok2.com/kget/*
 partner.become.co.jp
 tok2.com##div#meerkat-wrap
+
+##*[class^="ads_"]
+ads.doko.jp
+adv.addeluxe.jp
+deliver.ads*.iid.jp
