@@ -1,0 +1,33 @@
+[Adblock Plus 2.0]
+! Title: おにぎりすとv2
+! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
+! Expires: 1 days
+! Version: 2.0.1
+!Yahoo
+ai.yimg.jp/bdv/yahoo/javascript/yfa_visual5_tbp.js
+ads.yahoo.com/imp*
+yads.yahoo.co.jp/tag*
+yjaxc.yahoo.co.jp/oi
+i.yimg.jp/images/listing/tool/yads/yads-iframe.html*
+yahoo.co.jp##*[class*="adTyumoku"]
+yahoo.co.jp##*[class*="bnr"]
+yahoo.co.jp##*[class="adUltra"]
+im.ov.yahoo.co.jp/js_flat/*
+mail.yahoo.co.jp/yads/tag?*&s=*_*&
+mail.yahoo.co.jp/darla/php/fc.php
+!Google
+googlesyndication.com/pagead/*.js
+!楽天
+affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
+##a[href*="hb.afl.rakuten.co.jp"]
+!Amazon
+rcm-fe.amazon-adsystem.com/e/cm
+!
+api.unthem.com/js/pcad.js
+!
+spdeliver.i-mobile.co.jp/script/ads.js
+!
+vsc.send.microad.jp/delivery/ajs.php
+adf.send.microad.jp/afr.php
+!
+js.ad-stir.com/js/adstir.js
