@@ -38,7 +38,8 @@ rot*.a8.net
 ! Webメール系
 mail.google.com^*&view=ad&*
 &pv_ts=*&
-http*://*.mg*.mail.yahoo.co.jp/improxy/*&cm=*
+*.mail.yahoo.co.jp/improxy/*&cm=*
+*.mail.yahoo.co.jp/darla/php/fc.php*
 fd.rad.msn.com/DisplayFD/ads.ashx
 !--
 ! 動画系サービス
