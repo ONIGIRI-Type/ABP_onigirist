@@ -4,12 +4,20 @@
 ! Expires: 1 days
 ! Version: 2.0.2
 !
-!/ad/$script,image,subdocument
+!/ad/$script,image,subdocument,object-subrequest
 ad.js$script
-!tracking$script,image,subdocument
 ||ad.*$script,image,subdocument,object-subrequest
 ||ads.*$script,image,subdocument,object-subrequest
+||imp.*$script,image,subdocument,object-subrequest
+##a[href*="http://ad."]
 affiliate$script,image,subdocument
+!共通パターン
+/acc_random=$script
+!トラッキング、アナライズ
+analyze$script,image,subdocument,object-subrequest
+tracking$script,image,subdocument,object-subrequest
+kaiseki$script,image,subdocument,object-subrequest
+js/chartbeat.js
 !Yahoo
 ai.yimg.jp/bdv/yahoo/javascript/yfa_visual5_tbp.js
 ads.yahoo.com/imp*
@@ -27,6 +35,8 @@ mail.yahoo.co.jp/darla/php/fc.php
 googlesyndication.com/pagead/*.js
 googletagservices.com/tag/js/gpt.js
 mail.google.com*&view=ad&
+!Google ana
+www.google-analytics.com/ga.js
 !youtube
 googleads.g.doubleclick.net/pagead/ads
 www.youtube.com/api/stats/ads
@@ -51,7 +61,6 @@ adf.send.microad.jp/afr.php
 !
 js.ad-stir.com/js/adstir.js
 !
-impact-ad.jp/jserver/acc_random=$script
 impact-ad.jp/imp
 !
 dlv.itmedia.jp/adsv/
@@ -72,13 +81,15 @@ widgets.outbrain.com/outbrain.js
 bs.serving-sys.com/BurstingPipe/adServer.bs
 !
 widget.zenback.jp
+w.zenback.jp/v*
 !
 gigazine.asia/a/www/delivery/a*.php
 !
 widgets.itunes.apple.com/widget.html
 !
-##a[href*="dsp.logly.co.jp/click"]
-cdn.logly.co.jp/images/$image
+l.logly.co.jp/lift
+!##a[href*="dsp.logly.co.jp/click"]
+!cdn.logly.co.jp/images/$image
 !
 ##a[href*="px.a8.net"]
 ||www*.a8.net$image
@@ -86,3 +97,7 @@ cdn.logly.co.jp/images/$image
 ##a[href*="click.linksynergy.com"]
 !
 aos-creative.prf.hn/creative/
+!
+product.adingo.jp.eimg.jp/c/hybridplus/keyword.php
+!産経
+msads.net/library/dapmsn.js
