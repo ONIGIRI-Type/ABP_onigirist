@@ -7,6 +7,9 @@
 !/ad/$script,image,subdocument
 ad.js$script
 !tracking$script,image,subdocument
+||ad.*$script,image,subdocument,object-subrequest
+||ads.*$script,image,subdocument,object-subrequest
+affiliate$script,image,subdocument
 !Yahoo
 ai.yimg.jp/bdv/yahoo/javascript/yfa_visual5_tbp.js
 ads.yahoo.com/imp*
@@ -24,6 +27,12 @@ mail.yahoo.co.jp/darla/php/fc.php
 googlesyndication.com/pagead/*.js
 googletagservices.com/tag/js/gpt.js
 mail.google.com*&view=ad&
+!youtube
+googleads.g.doubleclick.net/pagead/ads
+www.youtube.com/api/stats/ads
+gdata.youtube.com/feeds/api/videos/
+pubads.g.doubleclick.net/pagead/adview
+www.youtube.com##div#premium-yva
 !楽天
 affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
 ##a[href*="hb.afl.rakuten.co.jp"]
@@ -45,7 +54,6 @@ js.ad-stir.com/js/adstir.js
 impact-ad.jp/jserver/acc_random=$script
 impact-ad.jp/imp
 !
-ads.nicovideo.jp
 dlv.itmedia.jp/adsv/
 http://www.itmedia.co.jp/nac/refresh/news/top/
 !
@@ -66,4 +74,15 @@ bs.serving-sys.com/BurstingPipe/adServer.bs
 widget.zenback.jp
 !
 gigazine.asia/a/www/delivery/a*.php
-
+!
+widgets.itunes.apple.com/widget.html
+!
+##a[href*="dsp.logly.co.jp/click"]
+cdn.logly.co.jp/images/$image
+!
+##a[href*="px.a8.net"]
+||www*.a8.net$image
+!
+##a[href*="click.linksynergy.com"]
+!
+aos-creative.prf.hn/creative/
