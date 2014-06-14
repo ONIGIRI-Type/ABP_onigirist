@@ -2,10 +2,11 @@
 ! Title: おにぎりすとv2
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 1 days
-! Version: 2.0.2
+! Version: 2.0.4
 !
 !/ad/$script,image,subdocument,object-subrequest
 ad.js$script
+@@load.js$script
 ||ad.*$script,image,subdocument,object-subrequest
 ||ads.*$script,image,subdocument,object-subrequest
 ||imp.*$script,image,subdocument,object-subrequest
@@ -34,14 +35,14 @@ mail.yahoo.co.jp/darla/php/fc.php
 !Google
 googlesyndication.com/pagead/*.js
 googletagservices.com/tag/js/gpt.js
+googleadservices.com/pagead/conversion.js
+doubleclick.net/*/ad*
 mail.google.com*&view=ad&
 !Google ana
 www.google-analytics.com/ga.js
 !youtube
-googleads.g.doubleclick.net/pagead/ads
 www.youtube.com/api/stats/ads
 gdata.youtube.com/feeds/api/videos/
-pubads.g.doubleclick.net/pagead/adview
 www.youtube.com##div#premium-yva
 !楽天
 affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
@@ -73,6 +74,7 @@ stats.mediaforge.com/stat/imps
 uac.advertising.com/wrapper/aceUAC.js
 !
 o.advg.jp/ojs
+ds.advg.jp/adpds_deliver/js/pjs.js
 !appnexus
 adnxs.com/tt*
 !
@@ -101,3 +103,6 @@ aos-creative.prf.hn/creative/
 product.adingo.jp.eimg.jp/c/hybridplus/keyword.php
 !産経
 msads.net/library/dapmsn.js
+!
+a.adimg.net/javascripts/AdLantisLoader.js
+!
