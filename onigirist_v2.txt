@@ -2,7 +2,7 @@
 ! Title: おにぎりすとv2
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 1 days
-! Version: 2.0.5
+! Version: 2.6
 !
 !/ad/$script,image,subdocument,object-subrequest
 ad.js$script
@@ -19,6 +19,7 @@ analyze$script,image,subdocument,object-subrequest
 tracking$script,image,subdocument,object-subrequest
 kaiseki$script,image,subdocument,object-subrequest
 js/chartbeat.js
+sb.scorecardresearch.com
 !Yahoo
 ai.yimg.jp/bdv/yahoo/javascript/yfa_visual5_tbp.js
 ads.yahoo.com/imp*
@@ -107,3 +108,5 @@ msads.net/library/dapmsn.js
 a.adimg.net/javascripts/AdLantisLoader.js
 !
 adm.shinobi.jp/s/
+!
+ads*.msads.net/adbar/products/v*/adbar.js
