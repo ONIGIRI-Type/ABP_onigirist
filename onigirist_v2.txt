@@ -2,7 +2,7 @@
 ! Title: おにぎりすとv2
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 1 days
-! Version: 2.6
+! Version: 2.7
 !
 !/ad/$script,image,subdocument,object-subrequest
 ad.js$script
@@ -21,7 +21,9 @@ kaiseki$script,image,subdocument,object-subrequest
 js/chartbeat.js
 sb.scorecardresearch.com
 !Yahoo
-ai.yimg.jp/bdv/yahoo/javascript/yfa_visual5_tbp.js
+ai.yimg.jp/bdv/yahoo/javascript/yfa_visual*
+ai.yimg.jp/bdv/*$image
+s.yimg.jp/bdv/*$image
 ads.yahoo.com/imp*
 yads.yahoo.co.jp/tag*
 yeas.yahoo.co.jp/n
@@ -30,6 +32,7 @@ i.yimg.jp/images/listing/tool/yads/yads-iframe.html*
 yahoo.co.jp##*[class*="adTyumoku"]
 yahoo.co.jp##*[class*="bnr"]
 yahoo.co.jp##*.adUltra
+headlines.yahoo.co.jp##div#lrec
 im.ov.yahoo.co.jp/js_flat/*
 mail.yahoo.co.jp/yads/tag?*&s=*_*&
 mail.yahoo.co.jp/darla/php/fc.php
@@ -52,11 +55,12 @@ affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
 rcm-*.amazon-adsystem.com/e/cm
 rcm-*.amazon.co.jp/e/cm
 ws.amazon.co.jp/widgets/q
+g-ecx.images-amazon.com/images/$object
 !
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
 !
-spdeliver.i-mobile.co.jp/script/ads.js
+spdeliverp.i-mobile.co.jp/script/ads*
 !
 vsc.send.microad.jp/delivery/ajs.php
 adf.send.microad.jp/afr.php
@@ -106,6 +110,8 @@ product.adingo.jp.eimg.jp/c/hybridplus/keyword.php
 msads.net/library/dapmsn.js
 !
 a.adimg.net/javascripts/AdLantisLoader.js
+!
+nend.net/js/nendAdLoader.js
 !
 adm.shinobi.jp/s/
 !
