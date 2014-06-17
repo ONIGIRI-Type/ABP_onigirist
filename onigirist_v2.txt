@@ -2,10 +2,11 @@
 ! Title: おにぎりすとv2
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 1 days
-! Version: 2.8
+! Version: 2.9
 !
 !/ad/$script,image,subdocument,object-subrequest
 ad.js$script
+ads.js$script
 @@load.js$script
 ||ad.*$script,image,subdocument,object-subrequest
 ||ads.*$script,image,subdocument,object-subrequest
@@ -60,7 +61,7 @@ g-ecx.images-amazon.com/images/$object
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
 !
-spdeliverp.i-mobile.co.jp/script/ads*
+spdeli*.i-mobile.co.jp/script/ads*
 !
 vsc.send.microad.jp/delivery/ajs.php
 adf.send.microad.jp/afr.php
