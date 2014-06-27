@@ -123,3 +123,4 @@ ads*.msads.net/adbar/products/v*/adbar.js
 !
 www.pixiv.net##div.ads_area
 !
+hie8oo.com/afr.php
