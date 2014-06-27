@@ -37,6 +37,8 @@ headlines.yahoo.co.jp##div#lrec
 im.ov.yahoo.co.jp/js_flat/*
 mail.yahoo.co.jp/yads/tag?*&s=*_*&
 mail.yahoo.co.jp/darla/php/fc.php
+!yahoo(動画配信系)
+im.yahooapis.jp
 !Google
 googlesyndication.com/pagead/*.js
 googletagservices.com/tag/js/gpt.js
