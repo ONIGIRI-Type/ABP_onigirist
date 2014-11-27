@@ -4,10 +4,12 @@
 ! Expires: 1 days
 ! Version: 2.11
 !
-!/ad/$script,image,subdocument,object-subrequest
+! 例外
+@@load.js$script
+@@ads.twitter.com
+!
 ad.js$script
 ads.js$script
-@@load.js$script
 ||ad.*$script,image,subdocument,object-subrequest
 ||ads.*$script,image,subdocument,object-subrequest
 ||imp.*$script,image,subdocument,object-subrequest
@@ -45,6 +47,7 @@ googlesyndication.com/pagead/*.js
 googletagservices.com/tag/js/gpt.js
 googleadservices.com/pagead/conversion.js
 doubleclick.net/*/ad*
+ad.*.doubleclick.net
 mail.google.com*&view=ad&
 !Google ana
 www.google-analytics.com/ga.js
@@ -55,18 +58,21 @@ www.youtube.com##div#premium-yva
 !楽天
 affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
 ##a[href*="hb.afl.rakuten.co.jp"]
+search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
 !Amazon
 rcm-*.amazon-adsystem.com/e/cm
 rcm-*.amazon.co.jp/e/cm
 ws.amazon.co.jp/widgets/q
 g-ecx.images-amazon.com/images/$object
+*.images-amazon.com/images/*/*/browser-scripts/DA-*/DA-*.js
+*.cloudfront.net/NA-*.js$script
 !
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
 !
 spdeli*.i-mobile.co.jp/script/ads*
 !
-vsc.send.microad.jp/delivery/ajs.php
+vsc.send.microad.jp/delivery/*
 ad*.send.microad.jp
 !
 js.ad-stir.com/js/adstir.js
@@ -146,3 +152,5 @@ impact-ad.jp
 srt-srv.xlisting.jp
 !
 www.adcash.com/script/*
+! twitter
+twitter.com##*[class*="promoted-tweet"]
