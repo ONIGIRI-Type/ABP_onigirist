@@ -131,7 +131,7 @@ www.pixiv.net##div.ads_area
 !
 hie8oo.com/afr.php
 !
-d.href.asia/nw/d/ajs.php
+d.href.asia
 !
 j.sprout-ad.com/js/*
 !
@@ -154,3 +154,10 @@ srt-srv.xlisting.jp
 www.adcash.com/script/*
 ! twitter
 twitter.com##*[class*="promoted-tweet"]
+!
+bid.socdm.com
+tg.socdm.com
+i.socdm.com
+!
+tags.mathtag.com
+creative.mathads.com
