@@ -2,10 +2,11 @@
 ! Title: おにぎりすとv2
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 1 days
-! Version: 2.12
+! Version: 2.13
 !
 ! 例外
 @@ads.twitter.com
+@@s*.huffpost.com
 !
 ||ad.*/$script,image,subdocument,object-subrequest
 ||ads.*/$script,image,subdocument,object-subrequest
@@ -137,7 +138,8 @@ sh.adingo.jp
 !
 *.adjuggler.net
 !
-cas.criteo.com/delivery/ajs.php
+!cas.criteo.com/delivery/ajs.php
+cas.criteo.com
 !
 doubleclick.net
 !
@@ -158,3 +160,11 @@ i.socdm.com
 !
 tags.mathtag.com
 creative.mathads.com
+!
+||5.to
+!
+ad-v.jp$script
+!
+||beacon-*.newrelic.com$script
+!
+as.ebis.ne.jp
