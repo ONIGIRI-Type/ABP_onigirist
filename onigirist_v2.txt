@@ -2,18 +2,14 @@
 ! Title: おにぎりすとv2
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 1 days
-! Version: 2.11
+! Version: 2.12
 !
 ! 例外
-@@load.js$script
 @@ads.twitter.com
 !
-ad.js$script
-ads.js$script
-||ad.*$script,image,subdocument,object-subrequest
-||ads.*$script,image,subdocument,object-subrequest
-||imp.*$script,image,subdocument,object-subrequest
-##a[href*="http://ad."]
+||ad.*/$script,image,subdocument,object-subrequest
+||ads.*/$script,image,subdocument,object-subrequest
+||imp.*/$script,image,subdocument,object-subrequest
 affiliate$script,image,subdocument
 !共通パターン
 /acc_random=$script
@@ -25,7 +21,7 @@ js/chartbeat.js
 sb.scorecardresearch.com
 !Yahoo
 !ai.yimg.jp/bdv/yahoo/javascript/yfa_*
-ai.yimg.jp/bdv/yahoo/javascript/*
+ai.yimg.jp/bdv/yahoo/javascript/$script
 ai.yimg.jp/bdv/*$image
 s.yimg.jp/bdv/*$image
 ads.yahoo.com/imp*
@@ -153,7 +149,8 @@ srt-srv.xlisting.jp
 !
 www.adcash.com/script/*
 ! twitter
-twitter.com##*[class*="promoted-tweet"]
+!twitter.com##li>div[class*="promoted-tweet"]
+twitter.com##div[data-promoted="true"]
 !
 bid.socdm.com
 tg.socdm.com
