@@ -168,3 +168,6 @@ ad-v.jp$script
 ||beacon-*.newrelic.com$script
 !
 as.ebis.ne.jp
+!
+twitter.com##div[data-disclosure-type="promoted"]
+
