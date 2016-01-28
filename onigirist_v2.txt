@@ -43,6 +43,7 @@ im.yahooapis.jp
 googlesyndication.com/pagead/*.js
 googletagservices.com/tag/js/gpt.js
 googleadservices.com/pagead/conversion.js
+googletagmanager.com/gtm.js
 doubleclick.net/*/ad*
 ad.*.doubleclick.net
 mail.google.com*&view=ad&
