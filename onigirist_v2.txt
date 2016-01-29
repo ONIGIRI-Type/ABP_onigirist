@@ -156,7 +156,7 @@ as.ebis.ne.jp
 !
 twitter.com##div[data-disclosure-type="promoted"]
 !
-ads.nicovideo.jp^/api/OxBannerService/
+ads.nicovideo.jp^/api/OxBannerService/*.jsonp*
 !
 ads.rubiconproject.com^
 ! 例外
