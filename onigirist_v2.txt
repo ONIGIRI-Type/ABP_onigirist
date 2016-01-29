@@ -7,8 +7,8 @@
 ! 例外
 @@ads.twitter.com
 @@s*.huffpost.com
-@@ads.nicovideo.jp
-@@uni.res.nimg.jp
+@@||ads.nicovideo.jp^
+@@||uni.res.nimg.jp^
 !共通パターン
 /acc_random=$script
 !トラッキング、アナライズ
