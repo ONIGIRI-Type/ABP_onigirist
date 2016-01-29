@@ -4,19 +4,6 @@
 ! Expires: 1 days
 ! Version: 2.13
 !
-! 例外
-@@ads.twitter.com
-@@s*.huffpost.com
-@@||ads.nicovideo.jp^
-@@||uni.res.nimg.jp^
-!共通パターン
-/acc_random=$script
-!トラッキング、アナライズ
-analyze$script,image,subdocument,object-subrequest
-tracking$script,image,subdocument,object-subrequest
-kaiseki$script,image,subdocument,object-subrequest
-js/chartbeat.js
-sb.scorecardresearch.com
 !Yahoo
 !ai.yimg.jp/bdv/yahoo/javascript/yfa_*
 ai.yimg.jp/bdv/yahoo/javascript/$script
@@ -170,8 +157,21 @@ as.ebis.ne.jp
 twitter.com##div[data-disclosure-type="promoted"]
 !
 ads.nicovideo.jp/api/OxBannerService/*.json*
+! 例外
+@@ads.twitter.com
+@@s*.huffpost.com
+@@||ads.nicovideo.jp^
+@@||uni.res.nimg.jp^
 !
 ||ad.*/$script,image,subdocument,object-subrequest
 ||ads.*/$script,image,subdocument,object-subrequest
 ||imp.*/$script,image,subdocument,object-subrequest
 affiliate$script,image,subdocument
+!共通パターン
+/acc_random=$script
+!トラッキング、アナライズ
+analyze$script,image,subdocument,object-subrequest
+tracking$script,image,subdocument,object-subrequest
+kaiseki$script,image,subdocument,object-subrequest
+js/chartbeat.js
+sb.scorecardresearch.com
