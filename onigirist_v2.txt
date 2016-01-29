@@ -158,13 +158,13 @@ twitter.com##div[data-disclosure-type="promoted"]
 !
 ads.nicovideo.jp/api/OxBannerService/*.json*
 ! 例外
-@@ads.twitter.com
+!@@ads.twitter.com
 @@s*.huffpost.com
-@@||ads.nicovideo.jp
+!@@||ads.nicovideo.jp
 @@||uni.res.nimg.jp^
 !
 ||ad.*/$script,image,subdocument,object-subrequest
-||ads.*/$script,image,subdocument,object-subrequest
+!||ads.*/$script,image,subdocument,object-subrequest
 ||imp.*/$script,image,subdocument,object-subrequest
 affiliate$script,image,subdocument
 !共通パターン
