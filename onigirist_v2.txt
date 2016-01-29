@@ -7,7 +7,8 @@
 ! 例外
 @@ads.twitter.com
 @@s*.huffpost.com
-!@@ads.nicovideo.jp
+@@ads.nicovideo.jp
+@@uni.res.nimg.jp
 !共通パターン
 /acc_random=$script
 !トラッキング、アナライズ
@@ -170,7 +171,7 @@ twitter.com##div[data-disclosure-type="promoted"]
 !
 ads.nicovideo.jp/api/OxBannerService/*.json*
 !
-!||ad.*/$script,image,subdocument,object-subrequest
-!||ads.*/$script,image,subdocument,object-subrequest
-!||imp.*/$script,image,subdocument,object-subrequest
+||ad.*/$script,image,subdocument,object-subrequest
+||ads.*/$script,image,subdocument,object-subrequest
+||imp.*/$script,image,subdocument,object-subrequest
 affiliate$script,image,subdocument
