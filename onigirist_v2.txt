@@ -7,6 +7,7 @@
 ! 例外
 @@ads.twitter.com
 @@s*.huffpost.com
+@@ads.nicovideo.jp
 !
 ||ad.*/$script,image,subdocument,object-subrequest
 ||ads.*/$script,image,subdocument,object-subrequest
@@ -171,4 +172,5 @@ ad-v.jp$script
 as.ebis.ne.jp
 !
 twitter.com##div[data-disclosure-type="promoted"]
-
+!
+ads.nicovideo.jp/api/OxBannerService/*.json*
