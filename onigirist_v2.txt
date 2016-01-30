@@ -45,9 +45,10 @@ search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
 rcm-*.amazon-adsystem.com/e/cm
 rcm-*.amazon.co.jp/e/cm
 ws.amazon.co.jp/widgets/q
-g-ecx.images-amazon.com/images/$object
 *.images-amazon.com/images/*/*/browser-scripts/DA-*/DA-*.js
 *.cloudfront.net/NA-*.js$script
+||*images-amazon.com^$image,domain=~www.amazon.co.jp|~www.amazon.com
+##a[href*="//www.amazon."][href*="&tag="]
 !
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
@@ -109,7 +110,9 @@ adm.shinobi.jp/s/
 !
 ads*.msads.net/adbar/products/v*/adbar.js
 !
+||d.pixiv.org^$image,subdocument
 www.pixiv.net##div.ads_area
+www.pixiv.net##a[href^="/premium.php"]
 !
 hie8oo.com/afr.php
 !
@@ -159,6 +162,11 @@ twitter.com##div[data-disclosure-type="promoted"]
 ads.nicovideo.jp/api/OxBannerService/*.jsonp*
 !
 ads.rubiconproject.com^
+!
+apvdr.com/v*/*.php*
+!
+||js.kau.li^$script
+!
 ! 例外
 !@@ads.twitter.com
 @@s*.huffpost.com
