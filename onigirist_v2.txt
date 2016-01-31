@@ -42,9 +42,10 @@ affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
 ##a[href*="hb.afl.rakuten.co.jp"]
 search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
 !Amazon
-rcm-*.amazon-adsystem.com/e/cm
+!rcm-*.amazon-adsystem.com/e/cm
 rcm-*.amazon.co.jp/e/cm
 ws.amazon.co.jp/widgets/q
+||*.amazon-adsystem.com^$script,image,subdocument,domain=~www.amazon.co.jp|~www.amazon.com
 *.images-amazon.com/images/*/*/browser-scripts/DA-*/DA-*.js
 *.cloudfront.net/NA-*.js$script
 ||*images-amazon.com^$image,domain=~www.amazon.co.jp|~www.amazon.com
