@@ -70,10 +70,11 @@ tag.ladsp.com/imp
 !
 stats.mediaforge.com/stat/imps
 !
-uac.advertising.com/wrapper/aceUAC.js
+||*.advertising.com^$domain=~www.advertising.com
 !
 o.advg.jp/ojs
 ds.advg.jp/adpds_deliver/js/pjs.js
+||*.adap.tv^
 !appnexus
 adnxs.com/tt*
 !
