@@ -39,7 +39,7 @@ gdata.youtube.com/feeds/api/videos/
 www.youtube.com##div#premium-yva
 !楽天
 affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
-##a[href*="hb.afl.rakuten.co.jp"]
+#a[href*="hb.afl.rakuten.co.jp"]
 search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
 !Amazon
 !rcm-*.amazon-adsystem.com/e/cm
@@ -49,7 +49,7 @@ ws.amazon.co.jp/widgets/q
 *.images-amazon.com/images/*/*/browser-scripts/DA-*/DA-*.js
 *.cloudfront.net/NA-*.js$script
 ||*images-amazon.com^$image,domain=~www.amazon.co.jp|~www.amazon.com
-##a[href*="//www.amazon."][href*="&tag="]
+#a[href*="//www.amazon."][href*="&tag="]
 !
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
@@ -58,7 +58,7 @@ spdeli*.i-mobile.co.jp/script/ads*
 !
 ||*.send.microad.jp^$script,image,subdocument,domain=~www.microad.co.jp
 ||j.microad.net^$script,domain=~www.microad.co.jp
-##a[href*="microad.jp"]$domain=~www.microad.co.jp
+#a[href*="microad.jp"]$domain=~www.microad.co.jp
 !
 js.ad-stir.com/js/adstir.js
 !
