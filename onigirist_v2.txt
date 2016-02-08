@@ -56,8 +56,9 @@ api.unthem.com/cast
 !
 spdeli*.i-mobile.co.jp/script/ads*
 !
-vsc.send.microad.jp/delivery/*
-ad*.send.microad.jp
+||*.send.microad.jp^$script,image,subdocument,domain=~www.microad.co.jp
+||j.microad.net^$script,domain=~www.microad.co.jp
+##a[href*="microad.jp"]$domain=~www.microad.co.jp
 !
 js.ad-stir.com/js/adstir.js
 !
@@ -155,8 +156,6 @@ creative.mathads.com
 !
 ad-v.jp$script
 !
-||beacon-*.newrelic.com$script
-!
 as.ebis.ne.jp
 !
 twitter.com##div[data-disclosure-type="promoted"]
@@ -182,6 +181,7 @@ apvdr.com/v*/*.php*
 !||ads.*/$script,image,subdocument,object-subrequest
 ||imp.*/$script,image,subdocument,object-subrequest
 affiliate$script,image,subdocument
+beacon$script,image,subdocument
 !共通パターン
 /acc_random=$script
 !トラッキング、アナライズ
