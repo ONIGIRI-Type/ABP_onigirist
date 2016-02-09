@@ -42,7 +42,13 @@ affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
 #a[href*="hb.afl.rakuten.co.jp"]
 search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
 !Amazon
-
+ws.amazon.co.jp/widgets/q
+#a[href*="//www.amazon."][href*="&tag="]
+rcm-*.amazon.co.jp^$script,image,domain=~www.amazon.co.jp
+!*.cloudfront.net/NA-*.js$script
+||affiliate.amazon.co.jp^$domain=~www.amazon.co.jp
+||*.amazon-adsystem.com^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
+||*images-amazon.com^$script,image,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 !
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
