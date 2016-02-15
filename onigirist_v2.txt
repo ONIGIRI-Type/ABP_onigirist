@@ -184,7 +184,7 @@ apvdr.com/v*/*.php*
 !||ads.*/$script,image,subdocument,object-subrequest
 ||imp.*/$script,image,subdocument,object-subrequest
 affiliate$script,image,subdocument
-beacon$script,image,subdocument
+beacon$script,image,subdocument$domain=~www.amazon.co.jp
 !共通パターン
 /acc_random=$script
 !トラッキング、アナライズ
