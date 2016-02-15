@@ -172,6 +172,8 @@ apvdr.com/v*/*.php*
 ||*ads*.iid.jp^
 !
 ||*.webtracker.jp^$script
+!
+||*adjust-net.jp
 ! 例外
 !@@ads.twitter.com
 @@s*.huffpost.com
