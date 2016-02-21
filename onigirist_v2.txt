@@ -141,6 +141,7 @@ www.adcash.com/script/*
 ! twitter
 !twitter.com##li>div[class*="promoted-tweet"]
 twitter.com##div[data-promoted="true"]
+twitter.com##div[data-disclosure-type="promoted"]
 !
 bid.socdm.com
 tg.socdm.com
@@ -154,8 +155,6 @@ creative.mathads.com
 ad-v.jp$script
 !
 as.ebis.ne.jp
-!
-twitter.com##div[data-disclosure-type="promoted"]
 !
 ads.nicovideo.jp/api/OxBannerService/*.jsonp*
 !
