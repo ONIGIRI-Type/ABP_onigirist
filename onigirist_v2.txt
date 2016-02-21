@@ -184,6 +184,18 @@ kakaku.com##*#noticeBnr
 ||*.speead.jp^
 !
 ||ad-api-v*.uliza.jp^$domain=~uliza.jp
+!
+||textad.net^$script,domain=~textad.net
+!
+||mediad2.jp^$subdocument,domain=~report.mediad2.jp
+!
+||media*.fc2.com/ana/*$script,image
+||media*fc2.com/counter_img.php$image,domain=video.fc2.com
+||media.fc2.com/clicks.php$domain=video.fc2.com
+||sys*.fc2.com^$subdocument,domain=video.fc2.com
+||aimg.fc2.com$image,domain=video.fc2.com
+||video.fc2.com/ad*.php$object-subrequest
+video.fc2.com##a[href*="afid="]
 ! 例外
 !@@ads.twitter.com
 @@s*.huffpost.com
