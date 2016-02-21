@@ -113,8 +113,8 @@ adm.shinobi.jp/s/
 ads*.msads.net/adbar/products/v*/adbar.js
 !
 ||d.pixiv.org^$image,subdocument
-www.pixiv.net##div.ads_area
-www.pixiv.net##a[href^="/premium.php"]
+pixiv.net##a[href^="/premium.php"]
+pixiv.net##*[class^="ads_"]
 !
 hie8oo.com/afr.php
 !
@@ -123,8 +123,6 @@ d.href.asia
 j.sprout-ad.com/js/*
 !
 sh.adingo.jp
-!
-##a[href*="ad_click"]
 !
 *.adjuggler.net
 !
@@ -174,6 +172,19 @@ apvdr.com/v*/*.php*
 ||*.webtracker.jp^$script
 !
 ||*adjust-net.jp
+!
+kakaku.com##*[class*="c-ad"]
+kakaku.com##*[class*="c-box-regularBox"]
+kakaku.com##*[href*="//kakaku.com/ad/"]
+kakaku.com/script/kakakuad/adsense.js
+kakaku.com##*#mypBnr
+kakaku.com##*#noticeBnr
+!
+||*.cxense.com^$script,domain=~www.cxense.com
+!
+||*.speead.jp^
+!
+||ad-api-v*.uliza.jp^$domain=~uliza.jp
 ! 例外
 !@@ads.twitter.com
 @@s*.huffpost.com
