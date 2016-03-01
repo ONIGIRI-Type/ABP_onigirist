@@ -39,8 +39,9 @@ gdata.youtube.com/feeds/api/videos/
 www.youtube.com##div#premium-yva
 !楽天
 affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
-#a[href*="hb.afl.rakuten.co.jp"]
 search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
+||afl.rakuten.co.jp
+##a[href^="http://hb.afl.rakuten.co.jp/"]
 !Amazon
 ws.amazon.co.jp/widgets/q
 #a[href*="//www.amazon."][href*="&tag="]
@@ -49,6 +50,8 @@ rcm-*.amazon.co.jp^$script,image,domain=~www.amazon.co.jp
 ||affiliate.amazon.co.jp^$domain=~www.amazon.co.jp
 ||*.amazon-adsystem.com^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 ||*images-amazon.com^$script,image,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
+!
+##a[href^="http://linksynergy.jrs"]
 !
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
@@ -93,8 +96,10 @@ l.logly.co.jp/lift
 !##a[href*="dsp.logly.co.jp/click"]
 !cdn.logly.co.jp/images/$image
 !
+||a8.net^$script,image,subdocument,object-subrequest,domain=~www.a8.net|adv.a8.net
 ##a[href*="px.a8.net"]
-||www*.a8.net$image
+@@www.a8.net
+@@adv.a8.net
 !
 ##a[href*="click.linksynergy.com"]
 !
@@ -196,6 +201,15 @@ kakaku.com##*#noticeBnr
 ||aimg.fc2.com$image,domain=video.fc2.com
 ||video.fc2.com/ad*.php$object-subrequest
 video.fc2.com##a[href*="afid="]
+!
+||gsspcln.jp^$script
+!
+||pebed.dm.gg
+!
+||pxlad.io^$script,image,xmlhttprequest
+!
+
+
 ! 例外
 !@@ads.twitter.com
 @@s*.huffpost.com
