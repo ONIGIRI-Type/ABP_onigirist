@@ -38,7 +38,7 @@ www.youtube.com/api/stats/ads
 gdata.youtube.com/feeds/api/videos/
 www.youtube.com##div#premium-yva
 !楽天
-affiliate.rakuten.co.jp/widget/js/rakuten_widget.js
+affiliate.rakuten.co.jp/widget/js/$script
 search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
 ||afl.rakuten.co.jp
 ##a[href^="http://hb.afl.rakuten.co.jp/"]
