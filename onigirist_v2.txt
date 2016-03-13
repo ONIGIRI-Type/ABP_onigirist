@@ -157,7 +157,7 @@ creative.mathads.com
 !
 ||5.to
 !
-||*.ad-v.jp$script
+||*.ad-v.jp$script,object-subrequest
 !
 as.ebis.ne.jp
 !
