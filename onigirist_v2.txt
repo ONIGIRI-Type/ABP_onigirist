@@ -4,6 +4,13 @@
 ! Expires: 1 days
 ! Version: 2.13
 !
+! 例外
+!@@ads.twitter.com
+@@s*.huffpost.com
+!@@||ads.nicovideo.jp
+@@||uni.res.nimg.jp^
+@@wikipedia.org
+!
 !Yahoo
 !ai.yimg.jp/bdv/yahoo/javascript/yfa_*
 ai.yimg.jp/bdv/yahoo/javascript/$script
@@ -28,8 +35,7 @@ googlesyndication.com/pagead/*.js
 googletagservices.com/tag/js/gpt.js
 googleadservices.com/pagead/conversion.js
 googletagmanager.com/gtm.js
-doubleclick.net/*/ad*
-ad.*.doubleclick.net
+||*.doubleclick.net^$domain=~www.doubleclickbygoogle.com
 mail.google.com*&view=ad&
 !Google ana
 www.google-analytics.com/ga.js
@@ -157,11 +163,12 @@ creative.mathads.com
 !
 ||5.to
 !
-||*.ad-v.jp$script,object-subrequest
+||*.ad-v.jp$script,object-subrequest,other
 !
 as.ebis.ne.jp
 !
 ads.nicovideo.jp/api/OxBannerService/*.jsonp*
+||live.nicovideo.jp##a[href*="cp_webto"]
 !
 ads.rubiconproject.com^
 !
@@ -208,13 +215,15 @@ video.fc2.com##a[href*="afid="]
 !
 ||pxlad.io^$script,image,xmlhttprequest
 !
-
-
-! 例外
-!@@ads.twitter.com
-@@s*.huffpost.com
-!@@||ads.nicovideo.jp
-@@||uni.res.nimg.jp^
+##a[href^="http://tracking.become.co.jp/"]
+!
+static-hw.xvideos.com/v*/js/ads.js
+!
+||*.popin.cc^$script,domain=~www.popin.cc
+!
+||adserver.adtechus.com
+!
+||www.loading-delivery*.com^$script,subdocument,object-subrequest
 !
 ||ad.*/$script,image,subdocument,object-subrequest
 !||ads.*/$script,image,subdocument,object-subrequest
