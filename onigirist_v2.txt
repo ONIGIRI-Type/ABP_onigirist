@@ -225,6 +225,8 @@ static-hw.xvideos.com/v*/js/ads.js
 !
 ||www.loading-delivery*.com^$script,subdocument,object-subrequest
 !
+||*.atwola.com
+!
 ||ad.*/$script,image,subdocument,object-subrequest
 !||ads.*/$script,image,subdocument,object-subrequest
 ||imp.*/$script,image,subdocument,object-subrequest
