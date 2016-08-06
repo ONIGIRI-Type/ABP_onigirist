@@ -227,6 +227,8 @@ static-hw.xvideos.com/v*/js/ads.js
 !
 ||*.atwola.com
 !
+||r*.res.office365.com/adbar/*
+!
 ||ad.*/$script,image,subdocument,object-subrequest
 !||ads.*/$script,image,subdocument,object-subrequest
 ||imp.*/$script,image,subdocument,object-subrequest
