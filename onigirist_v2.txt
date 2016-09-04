@@ -7,8 +7,6 @@
 ! 例外
 !@@ads.twitter.com
 @@s*.huffpost.com
-!@@||ads.nicovideo.jp
-@@||uni.res.nimg.jp^
 @@wikipedia.org
 !
 !Yahoo
@@ -169,6 +167,8 @@ as.ebis.ne.jp
 !
 ads.nicovideo.jp/api/OxBannerService/*.jsonp*
 ||live.nicovideo.jp##a[href*="cp_webto"]
+@@res.nimg.jp/scripts/common/tracking/nico_link_tracer.js
+@@||uni.res.nimg.jp^
 !
 ads.rubiconproject.com^
 !
