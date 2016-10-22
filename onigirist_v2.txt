@@ -157,7 +157,7 @@ i.socdm.com
 tags.mathtag.com
 creative.mathads.com
 !
-||5.to
+||5.to^
 !
 ||*.ad-v.jp$script,object-subrequest,other
 !
