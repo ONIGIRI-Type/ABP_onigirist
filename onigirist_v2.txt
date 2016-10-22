@@ -2,7 +2,7 @@
 ! Title: おにぎりすとv2
 ! Homepage: https://github.com/ONIGIRI-Type/ABP_onigirist/
 ! Expires: 1 days
-! Version: 2.13
+! Version: 2.14
 !
 ! 例外
 !@@ads.twitter.com
@@ -47,13 +47,13 @@ search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
 ||afl.rakuten.co.jp
 ##a[href^="http://hb.afl.rakuten.co.jp/"]
 !Amazon
-ws.amazon.co.jp/widgets/q
+||ws.amazon.co.jp/widgets/q^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 #a[href*="//www.amazon."][href*="&tag="]
-rcm-*.amazon.co.jp^$script,image,domain=~www.amazon.co.jp
+rcm-*.amazon.co.jp^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 !*.cloudfront.net/NA-*.js$script
-||affiliate.amazon.co.jp^$domain=~www.amazon.co.jp
+||affiliate.amazon.co.jp^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 ||*.amazon-adsystem.com^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
-||*images-amazon.com^$script,image,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
+||*images-amazon.com^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 !
 ##a[href^="http://linksynergy.jrs"]
 !
@@ -67,8 +67,6 @@ spdeli*.i-mobile.co.jp/script/ads*
 #a[href*="microad.jp"]$domain=~www.microad.co.jp
 !
 js.ad-stir.com/js/adstir.js
-!
-impact-ad.jp/imp
 !
 dlv.itmedia.jp/adsv/
 http://www.itmedia.co.jp/nac/refresh/news/top/
@@ -102,8 +100,8 @@ l.logly.co.jp/lift
 !
 ||a8.net^$script,image,subdocument,object-subrequest,domain=~www.a8.net|adv.a8.net
 ##a[href*="px.a8.net"]
-@@www.a8.net
-@@adv.a8.net
+!@@www.a8.net
+!@@adv.a8.net
 !
 ##a[href*="click.linksynergy.com"]
 !
@@ -142,7 +140,7 @@ doubleclick.net
 !
 go.padstm.com
 !
-impact-ad.jp
+||impact-ad.jp
 !
 srt-srv.xlisting.jp
 !
