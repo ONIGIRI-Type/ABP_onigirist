@@ -41,6 +41,7 @@ www.google-analytics.com/ga.js
 www.youtube.com/api/stats/ads
 gdata.youtube.com/feeds/api/videos/
 www.youtube.com##div#premium-yva
+||www.youtube.com/get_video_metadata
 !楽天
 affiliate.rakuten.co.jp/widget/js/$script
 search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
