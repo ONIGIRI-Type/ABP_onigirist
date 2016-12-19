@@ -42,6 +42,7 @@ www.youtube.com/api/stats/ads
 gdata.youtube.com/feeds/api/videos/
 www.youtube.com##div#premium-yva
 ||www.youtube.com/get_video_metadata
+||www.youtube.com/get_video_info*adformat=*
 ||tpc.googlesyndication.com/sodar/*
 ||www.google.com/jsapi*%22name%22%3A%22ads%22
 ||www.googleapis.com/youtube/v*/videos
