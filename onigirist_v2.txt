@@ -15,8 +15,7 @@ ai.yimg.jp/bdv/yahoo/javascript/$script
 ai.yimg.jp/bdv/*$image
 s.yimg.jp/bdv/*$image
 ads.yahoo.com/imp*
-yads.yahoo.co.jp/tag*
-yeas.yahoo.co.jp/n
+||yads*yahoo.co.jp
 yjaxc.yahoo.co.jp/oi
 i.yimg.jp/images/listing/tool/yads/yads-iframe.html*
 yahoo.co.jp##*[class*="adTyumoku"]
