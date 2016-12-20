@@ -64,7 +64,7 @@ rcm-*.amazon.co.jp^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate
 api.unthem.com/js/pcad.js
 api.unthem.com/cast
 !
-spdeli*.i-mobile.co.jp/script/ads*
+||sp*.i-mobile.co.jp^$script,xmlhttprequest,subdocument
 !
 ||*.send.microad.jp^$script,image,subdocument,domain=~www.microad.co.jp
 ||j.microad.net^$script,domain=~www.microad.co.jp
@@ -81,8 +81,7 @@ stats.mediaforge.com/stat/imps
 !
 ||*.advertising.com^$domain=~www.advertising.com
 !
-o.advg.jp/ojs
-ds.advg.jp/adpds_deliver/js/pjs.js
+||advg.jp^$script,script,subdocument
 ||*.adap.tv^
 !appnexus
 adnxs.com/tt*
@@ -236,8 +235,12 @@ static-hw.xvideos.com/v*/js/ads.js
 ||imp.*/$script,image,subdocument,object-subrequest
 affiliate$script,image,subdocument
 beacon$script,image,subdocument$domain=~www.amazon.co.jp
-!共通パターン
-/acc_random=$script
+!
+||banner.eisys-bcs.jp
+!
+||op.searchteria.co.jp
+!
+||js.fullout.jp$script
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
 tracking$script,image,subdocument,object-subrequest
