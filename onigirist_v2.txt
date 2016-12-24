@@ -243,7 +243,7 @@ beacon$script,image,subdocument$domain=~www.amazon.co.jp
 ||js.fullout.jp$script
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
-tracking$script,image,subdocument,object-subrequest
+tracking$script,image,subdocument,object-subrequest$domain=~www.ustream.tv
 kaiseki$script,image,subdocument,object-subrequest
 js/chartbeat.js
 sb.scorecardresearch.com
