@@ -57,7 +57,7 @@ rcm-*.amazon.co.jp^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate
 !*.cloudfront.net/NA-*.js$script
 ||affiliate.amazon.co.jp^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 ||*.amazon-adsystem.com^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
-||*images-amazon.com^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
+!||*images-amazon.com^$script,image,subdocument,domain=~www.amazon.co.jp|~affiliate.amazon.co.jp|~www.amazon.com
 !
 ##a[href^="http://linksynergy.jrs"]
 !
