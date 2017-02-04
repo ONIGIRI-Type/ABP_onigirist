@@ -65,6 +65,7 @@ api.unthem.com/js/pcad.js
 api.unthem.com/cast
 !
 ||sp*.i-mobile.co.jp^$script,xmlhttprequest,subdocument
+||imp-adedge.i-mobile.co.jp^$script
 !
 ||*.send.microad.jp^$script,image,subdocument,domain=~www.microad.co.jp
 ||j.microad.net^$script,domain=~www.microad.co.jp
