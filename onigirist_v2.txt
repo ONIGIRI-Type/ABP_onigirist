@@ -242,6 +242,8 @@ beacon$script,image,subdocument$domain=~www.amazon.co.jp
 ||op.searchteria.co.jp
 !
 ||js.fullout.jp$script
+!
+||js.nordot-connect.jp$script
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
 tracking$script,image,subdocument,object-subrequest$domain=~www.ustream.tv
