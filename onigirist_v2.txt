@@ -246,6 +246,8 @@ beacon$script,image,subdocument$domain=~www.amazon.co.jp
 ||js.nordot-connect.jp$script
 !
 ||adimp.excite.co.jp$script
+!
+||*.taboola.com$script,domain=~www.taboola.com
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
 tracking$script,image,subdocument,object-subrequest$domain=~www.ustream.tv
