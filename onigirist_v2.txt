@@ -247,6 +247,10 @@ beacon$script,image,subdocument$domain=~www.amazon.co.jp
 !
 ||adimp.excite.co.jp$script
 !
+||criteo.com$script,image,subdocument$domain=~www.criteo.com
+!
+||socdm.com
+!
 ||*.taboola.com$script,domain=~www.taboola.com
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
