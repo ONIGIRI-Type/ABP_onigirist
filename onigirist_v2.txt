@@ -181,6 +181,7 @@ apvdr.com/v*/*.php*
 ||h.accesstrade.net^$domain=~accesstrade.net|~member.accesstrade.net
 !
 ||*ads*.iid.jp^
+||id.iid.jp
 !
 ||*.webtracker.jp^$script
 !
@@ -250,6 +251,10 @@ beacon$script,image,subdocument$domain=~www.amazon.co.jp
 ||criteo.com$script,image,subdocument$domain=~www.criteo.com
 !
 ||socdm.com
+!
+||speee-ad.jp
+!
+||cdn.app-cm.co.jp
 !
 ||*.taboola.com$script,domain=~www.taboola.com
 !トラッキング、アナライズ
