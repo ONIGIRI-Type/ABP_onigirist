@@ -255,7 +255,16 @@ beacon$script,image,subdocument$domain=~www.amazon.co.jp
 ||speee-ad.jp
 !
 ||cdn.app-cm.co.jp
-!
+! Nijie
+nijie.info/js/ad.js
+||pic*.nijie.info/banner/
+nijie.info/avtsm.php
+nijie.info/ad_dl_site.php
+! maist
+||ad.maist.jp
+||bn.maist.jp
+maist.jp/optout/
+
 ||*.taboola.com$script,domain=~www.taboola.com
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
