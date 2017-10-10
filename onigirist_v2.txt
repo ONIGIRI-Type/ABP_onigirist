@@ -269,6 +269,8 @@ maist.jp/optout/
 !
 ichiba.nicovideo.jp/embed/
 ||*.taboola.com$script,domain=~www.taboola.com
+!
+||*.teads.tv
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
 tracking$script,image,subdocument,object-subrequest$domain=~www.ustream.tv
