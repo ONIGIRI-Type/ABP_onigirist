@@ -264,7 +264,10 @@ nijie.info/ad_dl_site.php
 ||ad.maist.jp
 ||bn.maist.jp
 maist.jp/optout/
-
+!
+||moatads.com
+!
+ichiba.nicovideo.jp/embed/
 ||*.taboola.com$script,domain=~www.taboola.com
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
