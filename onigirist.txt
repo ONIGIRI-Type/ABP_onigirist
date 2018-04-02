@@ -123,6 +123,8 @@ cas.criteo.com
 image.tok2.com/kget/*
 partner.become.co.jp
 tok2.com##div#meerkat-wrap
+server.cpmstar.com
+
 
 ##*[class^="ads_"]
 ads.doko.jp
