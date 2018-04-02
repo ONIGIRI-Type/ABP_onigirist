@@ -254,6 +254,8 @@ beacon$script,image,subdocument$domain=~www.amazon.co.jp
 !
 ||speee-ad.jp
 !
+server.cpmstar.com
+!
 ||cdn.app-cm.co.jp
 ! Nijie
 nijie.info/js/ad.js
