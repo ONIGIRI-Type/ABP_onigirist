@@ -229,8 +229,8 @@ static-hw.xvideos.com/v*/js/ads.js
 ||www.loading-delivery*.com^$script,subdocument,object-subrequest
 !
 ||*.atwola.com
-!
-||r*.res.office365.com/adbar/*
+! outlook
+||office365.com/ad$script
 !
 ||ad.*/$script,image,subdocument,object-subrequest
 !||ads.*/$script,image,subdocument,object-subrequest
