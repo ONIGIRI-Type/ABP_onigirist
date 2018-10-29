@@ -167,7 +167,7 @@ creative.mathads.com
 !
 as.ebis.ne.jp
 !
-ads.nicovideo.jp/api/OxBannerService/*.jsonp*
+ads.nicovideo.jp/assets/js/ads*$script
 ||live.nicovideo.jp##a[href*="cp_webto"]
 @@res.nimg.jp/scripts/common/tracking/nico_link_tracer.js
 @@||uni.res.nimg.jp^
