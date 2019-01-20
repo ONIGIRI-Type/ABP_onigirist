@@ -272,6 +272,9 @@ maist.jp/optout/
 ichiba.nicovideo.jp/embed/
 ||*.taboola.com$script,domain=~www.taboola.com
 !
+!DLSite
+www.dlsite.com/js/dlsite/promo/
+!
 ||*.teads.tv
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
