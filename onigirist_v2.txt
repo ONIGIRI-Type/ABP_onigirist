@@ -275,6 +275,12 @@ ichiba.nicovideo.jp/embed/
 !DLSite
 www.dlsite.com/js/dlsite/promo/
 !
+!
+ap.octopuspop.com
+!
+!
+serve.popads.net
+!
 ||*.teads.tv
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
