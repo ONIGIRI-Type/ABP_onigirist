@@ -46,7 +46,6 @@ www.youtube.com##div#premium-yva
 ||www.google.com/jsapi*%22name%22%3A%22ads%22
 ||www.googleapis.com/youtube/v*/videos
 www.youtube.com##div#masthead-ad
-ggpht.com
 !楽天
 affiliate.rakuten.co.jp/widget/js/$script
 search.rakuten.co.jp##div[class*="rsrSResultSectPr"]
