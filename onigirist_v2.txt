@@ -282,6 +282,7 @@ ap.octopuspop.com
 !
 serve.popads.net
 !
+cdn.x-lift.jp/js/
 ||*.teads.tv
 !トラッキング、アナライズ
 analyze$script,image,subdocument,object-subrequest
